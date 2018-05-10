@@ -1,0 +1,68 @@
+/* Universal Styles */
+
+
+/* Desktop Styles */
+
+/* Hidden on desktop */
+
+.mobile-navbar {
+  display: none;
+}
+
+.img-mobile {
+  display: none;
+}
+
+.learning-content-mobile {
+  display: none;
+}
+
+.thesis-content-mobile {
+  display: none;
+}
+
+
+
+/* Mobile Styles */
+
+/* Hidden on Mobile */
+@media only screen and (max-width: 460px) {
+
+  .desktop-navbar {
+    display: none;
+
+  }
+  .present-main {
+    display: none;
+  }
+
+  .learning-content {
+    display: none;
+  }
+
+  .thesis-content {
+    display: none;
+  }
+
+}
+
+/* Shown on Mobile */
+
+@media only screen and (max-width: 460px) {
+
+  .mobile-navbar {
+    display: flex;
+  }
+
+  .img-mobile {
+    display: flex;
+  }
+
+  .learning-content-mobile {
+    display: flex;
+  }
+
+  .thesis-content-mobile {
+    display: flex;
+  }
+}
